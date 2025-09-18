@@ -1,31 +1,88 @@
- <!DOCTYPE html>
- <html>
- <head>
-   <title>My First Webpage</title>
- </head>
-  
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Webpage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
 
+    .image-container {
+      margin: 20px auto;
+    }
+
+    img {
+      width: 25%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+    }
+
+    h1, h2 {
+      color: #004080;
+    }
+
+    p {
+      max-width: 800px;
+      margin: 10px auto;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 15px 0;
+    }
+
+    .button-link {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #004080;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .button-link:hover {
+      background-color: #0066cc;
+    }
+  </style>
+</head>
 
 <body>
-  <img src="Final_2013_Fencing_WCH_FMS-IN_t200907.jpg" style="width: 75%; height: auto;" alt="Fencing image">
+  <div class="image-container">
+    <img src="Final_2013_Fencing_WCH_FMS-IN_t200907.jpg" alt="Fencing image">
+  </div>
+
   <h1>Welcome to Fencing World!</h1>
   <h2>Your one-stop shop for all things fencing!</h2>
+
   <p>Fencing is a sport that involves two competitors fighting with swords. The objective is to score points by making contact with the opponent while avoiding being hit yourself. Fencing is a fast-paced and exciting sport that requires quick reflexes, agility, and strategy.</p>
+
   <p>There are three main types of fencing: foil, epee, and sabre. Each type has its own set of rules and techniques, but all three require a combination of speed, precision, and endurance.</p>
+
   <p>Fencing is a great way to stay active and improve your coordination and balance. It also teaches important life skills such as discipline, focus, and sportsmanship.</p>
+
   <h2>Whether you're a beginner or an experienced fencer, there's something for everyone in the world of fencing. So why not give it a try and see what all the excitement is about?</h2>
+
   <h2>Ready to get started? Here are some resources to help you learn more about fencing:</h2>
- <ul>
-    <li><a href="Headerpage.html">Fencing with Foils</a></li>
-    <li><a href="CSCODEWPIndexunderpage.html">Fencing with Epees</a></li>
-    <li><a href="ContactInfo.html">Fencing with Sabres</a></li>
+
+  <ul>
+    <li><a class="button-link" href="Headerpage.html">Fencing with Foils</a></li>
+    <li><a class="button-link" href="CSCODEWPIndexunderpage.html">Fencing with Sabres</a></li>
+    <li><a class="button-link" href="ContactInfo.html">Fencing with Epees</a></li>
   </ul>
 
- 
-  <a href="https://github.com/teacher-aj/HeschelCS">Click here for access to HeschelCS</a>
+  <p><a class="button-link" href="https://github.com/teacher-aj/HeschelCS">Click here for access to HeschelCS</a></p>
 </body>
-
-
-  
- </body>
- </html>
+</html>
