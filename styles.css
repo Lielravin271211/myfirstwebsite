@@ -90,3 +90,7 @@ a:hover {
 .bold {
   font-weight: bold;
 }
+
+#indexheader {
+  color: navy;
+}
