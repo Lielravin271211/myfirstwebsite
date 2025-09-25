@@ -72,8 +72,8 @@ a:hover {
   background-color: #0066cc;
 }
 
-.warning {
-  background-color: rgb(255, 250, 250);
+#warning {
+  background-color: rgb(235, 235, 235);
 }
 
 .introduction {
