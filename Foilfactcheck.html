@@ -60,7 +60,7 @@
 
         for (let i = 0; i < answers.length; i++) {
           const radios = form.elements[answers[i]];
-          let selected = false;
+         let selected = false;
 
           for (let j = 0; j < radios.length; j++) {
             if (radios[j].checked) {
@@ -83,7 +83,7 @@
           resultMsg.className = "correct";
        
           setTimeout(() => {
-           window.location.href = "index.html";
+            window.location.href = "index.html";
           }, 1500);
         } else {
           resultMsg.textContent = "Some answers are incorrect. Please try again.";
